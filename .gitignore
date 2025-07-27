@@ -1,0 +1,126 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# uv
+.uv_cache/
+# uv.lock  # 보통은 커밋하는 게 좋음
+
+# Testing
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Development tools
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.black
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints
+
+# Documentation
+docs/_build/
+docs/build/
+site/
+
+# Web/Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.bundle.js
+*.bundle.css
+*.map
+.cache/
+.parcel-cache/
+
+# WASM builds
+*.wasm
+wasm_build/
+
+# Operating Systems
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE_BIN/
+*~
+.fuse_hidden*
+.nfs*
+
+# Environment & Secrets
+.env
+.env.local
+.env.production
+.env.development
+secrets.json
+*.key
+*.pem
+*.crt
+config.ini
+local_settings.py
+
+# Project specific
+examples/*/dist/
+examples/*/build/
+benchmarks/results/
+benchmarks/output/
+test_output/
+tmp/
+temp/
+releases/
+artifacts/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
